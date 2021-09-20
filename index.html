@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV. Cross-Check</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Vladislav Hitrikov</h1>
+            <nav class="navigation-header">
+                <ul class="navigation">
+                    <li>
+                        <a class="navigation-button" href="#contacts">CONTACTS</a>
+                    </li>
+                    <li>
+                        <a class="navigation-button" href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="navigation-button" href="#skills">SKILLS</a>
+                    </li>
+                    <li>
+                        <a class="navigation-button" href="#code">MY CODE</a>
+                    </li>
+                    <li>
+                        <a class="navigation-button" href="#project">MY PROJECT</a>
+                    </li>
+                    <li>
+                        <a class="navigation-button" href="#education">EDUCATION</a>
+                    </li>
+                    <li>
+                        <a class="navigation-button" href="#cours">COURSES</a>
+                    </li>
+                    <li>
+                        <a class="navigation-button" href="#lang">LANGUAGES</a>
+                    </li>
+                </ul>
+                <div class="menu">
+                    <ul class="menu-position">
+                        <li class="list-item">
+                            <a class="navigation-menu" href="">MENU</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="navigation-menu" href="#contacts">CONTACTS</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="navigation-menu" href="#about">ABOUT</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="navigation-menu" href="#skills">SKILLS</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="navigation-menu" href="#code">MY CODE</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="navigation-menu" href="#project">MY PROJECT</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="navigation-menu" href="#education">EDUCATION</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="navigation-menu" href="#cours">COURSES</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="navigation-menu" href="#lang">LANGUAGES</a>
+                        </li>
+                    </ul>  
+                </div>
+                <img class="svg-menu" src="img/menu.svg" alt="menu">
+            </nav>
+        </div>
+        <div class="about-me">
+            <div class="position-foto">
+                <img class="my-foto" src="img/Foto.jpg" alt="professional">
+                <p class="thought">Front-End Developer</p>
+            </div> 
+            <section id="about">
+                <div class="panel-head-left">
+                    <h2>ABOUT ME</h2>
+                    <img class="images-right" src="img/success.svg" alt="Error">
+                </div>
+                <div class="panel-body-left">
+                    <p>Age: 25</p> 
+                    <p> I am about to start working as a Front-End Programming Developer and I am a great fit for this: extremely motivated for a career change.
+                            Ability to find non-standard solutions. Dear leader. I quickly get into work. 
+                            In my opinion, I have such characteristics as resistance to stress, responsibility.
+                    </p>     
+                </div>            
+            </section> 
+        </div>
+    </header>
+    <main>
+        <section class="position">
+            <div id="contacts">
+                <div class="panel-head-left">
+                    <h2>CONTACTS</h2>
+                    <img class="images-right" src="img/globe.svg" alt="Error">
+                </div>
+                <div class="panel-body-left">
+                    <ul>
+                        <li class="List-phone"><span>+375 33 677-91-56</span></li>
+                        <li class="List-mail"><span>vlad.hitrikov@yahoo.com</span></li>                            
+                        <li class="List-place"><span>Mogilev</span></li>
+                        <li class="List-id"><span> <a href="https://www.linkedin.com/in/vlad-hitrikov-1aa217212/" target="_blank">https://www.linkedin.com/in/vlad-hitrikov-1aa217212/</a></span></li>
+                        <li class="List-skype"><span>join.skype.com/invite/OPM7YzMdxq</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="panel-head-left">
+                <h2>PROFESSIONAL SKILLS</h2>
+                <img class="images-right" src="img/gear.svg" alt="Error">
+            </div>
+            <div class="panel-body-left">
+                <ul>
+                    <li><span>ABILITY TO CREATE DETAILED AND WELL-STRUCTURED TESTDOCUMENTATION (CHECK-LIST, TEST-CASE, BUG REPORT).</span></li>
+                    <li><span>BASIC UNDERSTANDING OF CLIENT-SERVER APPLICATIONS WORKING</span></li>
+                    <li><span>BASIC KNOWLEDGE OF SQL(SELECT,JOIN)</span></li>
+                    <li><span>RESTFUL API TESTING USING (POSTMAN)</span></li>
+                    <li><span>BASIC KNOWLEDGE OF HTML, CSS, JS, GIT</span></li>
+                    <li><span>AGILE(SCRUM AND KANBAN)</span></li>
+                    <li><span>TESTRAIL (BASIC)</span></li> 
+                    <li><span>PRACTICED ON JIRA</span></li>
+                    <li><span>PRACTICED ON FIGMA, LIGHTROOM, ADOBE ILLUSTRATOR</span></li>
+                </ul>
+            </div>
+        </section>
+        <section id="code">
+            <div class="panel-head-left">
+                <h2>MY CODE</h2>
+                <img class="images-right" src="img/code.svg" alt="code">
+            </div>
+            <div class="panel-body-left">
+                <pre>
+                    <code>
+function solve(a,b){
+    if (a === 0 || b === 0) {
+        return [a,b];
+    } else if (a >= 2 * b) {
+        return solve(a - 2 * b,b);
+    } else if (b>= 2 * a) {
+        return solve(a,b - 2 * a);
+    } else {
+        return [a,b];
+    }
+                    </code>
+                </pre>
+            </div>
+        </section>
+        <section id="project">
+            <div class="panel-head-left">
+                <h2>MY PROJECT</h2>
+                <img class="images-right" src="img/project.svg" alt="project">
+            </div>
+            <div class="museum">
+                <nav>
+                    <a class="text-museum" href="https://vlad48-star.github.io/rsschool-cv/museum/" target="_blank">Museum</a>
+                </nav>
+                <div>
+                    <p class="text-museum">The start of the task I did in stage # 0. Simple website without responsive and js.</p>
+                </div>
+                <nav class="box-3">
+                    <a href="https://vlad48-star.github.io/rsschool-cv/museum/" target="_blank">
+                        <img class="project" src="img/Rectangle.jpg" alt="my-project">
+                    </a>
+                </nav>
+            </div>
+        </section>
+        <section id="education">
+            <div class="panel-head-left">
+                <h2>EDUCATION</h2>
+                <img class="images-right" src="img/education.svg" alt="Error">
+            </div>
+            <div class="panel-body-left">
+                <div class="education">
+                    <span class="name-education">MOGILEV STATE TECHNOLOGICAL COLLEGE Electric. Power supply by industry</span>
+                    <span class="name-year"> 2011-2015</span>
+                    <span class="name-education">MOGILEV STATE UNIVERSITY OF FOOD Mechanical. Automation engineer</span>
+                    <span class="name-year"> 2015-2020</span>
+                </div>
+            </div>
+        </section>
+        <section id="cours">
+            <div class="panel-head-left">
+                <h2>COURSES</h2>
+                <img class="images-right" src="img/notebook.svg" alt="Error">
+            </div>
+            <div class="panel-body-left">
+                <div>
+                    <p>IT SCHOOL "МЕЛЛА РОССА"</p>
+                    <p>Software Testing</p>
+                </div>
+            </div>
+        </section>
+        <section id="lang">
+            <div class="panel-head-left">
+                <h2>LANGUAGES</h2>
+                <img class="images-right" src="img/eng.svg" alt="Error">
+            </div>  
+            <div class="panel-body-left">
+                <ul>
+                    <li><span>English А2</span></li>
+                    <li><span>Russian Native</span> </li>
+                </ul>
+            </div>  
+        </section>
+    </main> 
+    <footer>
+        <nav>
+            <ul class="navigation-footer">
+                <li class="footer-list">
+                    <a href="https://github.com/Vlad48-star" target="_blank">
+                        <img class="footer-svg" src="img/github.svg" alt="GIT">
+                    </a>
+                </li>
+                <li class="footer-list">
+                    <a href="https://github.com/Vlad48-star" target="_blank">
+                        <img class="footer-svg" src="img/youtube.svg" alt="Video_CV">
+                    </a>
+                </li>
+                <li class="footer-list">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img class="footer-rs" src="img/rs_school.svg" alt="Rs_school">
+                    </a>
+                </li>
+                <li class="footer-list">
+                    <p class="year">2021</p>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="menu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

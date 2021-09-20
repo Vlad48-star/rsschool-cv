@@ -264,8 +264,17 @@ p.thought:after {
     width: 50px;
 }
 .footer-svg:hover{
-
+    color: #0b8dc0;
 }
+#code > div.panel-body-left > pre > code{
+    padding: 0;
+}
+.panel-body-left.cods{
+    display: grid;
+    justify-content: center;
+    padding: 30px 5px;
+}
+
 .footer-list{
     list-style: none;
 }

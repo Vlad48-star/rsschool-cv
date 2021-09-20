@@ -293,6 +293,7 @@ p.thought:after {
 }
 .text-museum{
     font-size: 18px;
+    padding-right: 5px;
 }
 nav.text-museum{
     text-align: center;

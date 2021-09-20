@@ -294,6 +294,9 @@ p.thought:after {
 .text-museum{
     font-size: 18px;
 }
+nav.text-museum{
+    text-align: center;
+}
 @media (max-width: 1650px) {
     .navigation-button{
         font-size: 17px;
@@ -367,6 +370,7 @@ p.thought:after {
     }
     .museum{
         grid-template-columns:50% 50%;
+        padding: 0;
     }
     .box-3{
         display: grid;
